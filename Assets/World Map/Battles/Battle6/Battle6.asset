@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9818c17cd9ef24a45bcdb45e434bbcb6, type: 3}
+  m_Name: Battle6
+  m_EditorClassIdentifier: 
+  Board: {fileID: 3230312923696691458, guid: bd51707df708d4968a50568e891e02b8, type: 3}
+  BoardScale: 48
+  FoeSpawns:
+  - {x: 0, y: 13, z: 2}
+  - {x: 0, y: -13, z: 8}
+  - {x: 13, y: 0, z: 9}
+  - {x: -13, y: 0, z: 15}
+  - {x: 3, y: 0, z: 5}
+  - {x: -3, y: 0, z: 13}
+  - {x: 0, y: 3, z: 4}
+  - {x: 0, y: -3, z: 12}
+  PlayerSpawns:
+  - {x: 0, y: 15, z: 1}
+  - {x: 0, y: -15, z: 7}
+  - {x: 15, y: 0, z: 10}
+  - {x: -15, y: 0, z: 16}
+  - {x: 1, y: 0, z: 6}
+  - {x: -1, y: 0, z: 14}
+  - {x: 0, y: 1, z: 3}
+  - {x: 0, y: -1, z: 11}
